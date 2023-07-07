@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="search" id="search">
+    <input type="password" placeholder="Password" id="Password">
+
+    <button onclick="RES()">  Click</button>
+<h1 id="ANS"> Id= Rajendra | Password= Raj </h1>
+
+
+<script>
+
+function RES()
+{
+ a = document.getElementById('search').value;
+ b = document.getElementById('Password').value;
+
+  if  (a == "Rajendra" && b == "Raj")
+alert("Welcome to the world") 
+
+
+
+
+
+}
+
+</script>
+
+</body>
+</html>
